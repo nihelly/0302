@@ -1,0 +1,8 @@
+.body {
+    justify-items: center;
+    padding: 50px;
+}
+.title {
+    color: rgb(6, 134, 55);
+    text-align: center;
+}

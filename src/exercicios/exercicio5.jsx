@@ -7,7 +7,7 @@ function exercicio5() {
        Mensagens.innerHTML = "Olá, " + NomeDigitado + "! Seja bem-vindo(a)!";
     }
   return (
-    <div>
+    <div style={{border: '2px solid #40b846', marginTop: '20px', padding: '10px', borderRadius: '5px', backgroundColor: '#e9f8e5'}}>
         <h2>Exercício 5 - Saudação de Cliente</h2>
        <input type="text" id="nome-cliente" placeholder="Digite seu nome"/>
        <button onClick={SaudarCliente}>Saudar</button>

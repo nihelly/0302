@@ -10,10 +10,10 @@ function Exercicio6() {
         resultado.innerHTML = `Total: R$${Total.toFixed(2)}`;
     }
   return (
-    <div >
+    <div style={{border: '2px solid #40b846', marginTop: '20px', padding: '10px', borderRadius: '5px', backgroundColor: '#e9f8e5'}}>
       <h2>Exercicio 6 - Cálculo do Total de um Produto</h2>
       <button onClick={CalculoTotal}>Calculo Total</button>
-      <div id="total-produto" style={{marginTop: "10px", fontWeight: "bold"}}></div>
+      <div id="total-produto"></div>
     </div>
   )
 }
